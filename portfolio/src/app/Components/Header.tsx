@@ -23,27 +23,19 @@ const Header = () => {
         <nav className="hidden md:block">
           <ul className="flex space-x-8">
             {[
-              { title: "About Me", link: "index.html", subLinks: [{ title: "About", link: "index.html" }, { title: "About", link: "index-2.html" }] },
-              { title: "Resume", link: "resume.html" },
+              { title: "About Me", link: "index.html", subLinks: [{ title: "About", link: "index.html" }] },
+              { title: "Resume", link: "/Resume" },
               {
                 title: "Portfolio",
-                link: "portfolio.html",
-                subLinks: [
-                  { title: "Portfolio  ", link: "portfolio-2-columns.html" },
-                  { title: "Portfolio  ", link: "portfolio.html" },
-                  { title: "Portfolio  ", link: "portfolio-4-columns.html" },
-                  { title: "Portfolio  ", link: "portfolio-5-columns.html" },
-                ],
+                link: "/portfolio",
+               
               },
               {
                 title: "Blog",
-                link: "blog.html",
-                subLinks: [
-                  { title: "Blog ", link: "blog.html" },
-                  { title: "Blog ", link: "blog-3-columns.html" },
-                ],
+                link: "/blog",
+               
               },
-              { title: "Contact", link: "contact.html" },
+              { title: "Contact", link: "/Contact" },
             ].map((item, index) => (
               <li key={index} className="relative group">
                 <Link href={item.link} className="flex items-center p-2 hover:bg-gray-800 rounded transition duration-200">
