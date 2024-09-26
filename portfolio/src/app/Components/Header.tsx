@@ -23,13 +23,9 @@ const Header = () => {
         <nav className="hidden md:block">
           <ul className="flex space-x-8">
             {[
-              { title: "About Me", link: "index.html", subLinks: [{ title: "About", link: "index.html" }] },
+              { title: "About Me", link: "/aboutme"}, 
               { title: "Resume", link: "/Resume" },
-              {
-                title: "Portfolio",
-                link: "/portfolio",
-               
-              },
+              
               {
                 title: "Blog",
                 link: "/blog",
