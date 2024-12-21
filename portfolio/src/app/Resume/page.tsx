@@ -5,9 +5,9 @@ const Resume: React.FC = () => {
   return (
     <div className="flex flex-col items-center p-8 bg-gray-900 min-h-screen">
       <div className="w-full max-w-4xl bg-gray-800 shadow-lg rounded-xl p-8">
-        <h1 className="text-4xl font-bold text-center text-white">Alex Smith</h1>
-        <h2 className="text-2xl font-semibold text-center text-gray-300">Frontend Developer</h2>
-        <p className="mt-2 text-center text-gray-400">Email: alex@example.com | Phone: (123) 456-7890</p>
+        <h1 className="text-4xl font-bold text-center text-white">Sukhjeet Singh</h1>
+        <h2 className="text-2xl font-semibold text-center text-gray-300">Full Stack Developer</h2>
+        <p className="mt-2 text-center text-gray-400">Email: singhsukhjeet6296@gmail.com | Phone:+91  9355716014</p>
 
         <div className="border-b border-gray-700 my-6"></div>
 
@@ -62,7 +62,7 @@ const Resume: React.FC = () => {
   <h3 className="text-3xl font-bold text-blue-500">Experience</h3>
   <div className="mt-4 space-y-4">
     <div className="p-4 bg-gray-700 rounded-lg hover:bg-gray-600 transition duration-200"> {/* Added hover effect */}
-      <h4 className="text-xl font-semibold text-white">Company Name - Frontend Developer</h4>
+      <h4 className="text-xl font-semibold text-white">TeachGeometry pri.lmt - Full Stack Developer</h4>
       <p className="text-gray-400">Jan 2020 - Present</p>
       <ul className="list-disc list-inside mt-2 text-gray-300">
         <li>Developed user-friendly web applications.</li>

@@ -7,7 +7,7 @@ const AboutMe = () => {
         <h2 className="text-4xl font-bold text-white text-center mb-8">About Me</h2>
         <div className="flex flex-col items-center bg-white rounded-lg shadow-lg p-8">
           <img
-            src="/imagecopy1.png"
+            src="/IMG_9208.JPG"
             alt="Sukhjeet Singh"
             className="w-32 h-32 object-cover rounded-full border-4 border-indigo-500 mb-4"
           />
